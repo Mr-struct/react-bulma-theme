@@ -6,6 +6,7 @@
 	"module": "build/index.modern.js",
   "description": "A component that wraps your app and provide you bulma themes",
   "author": "Sofiane BELMEHDI",
+  "keywords": ["react", "typescript", "bulma", "theme", "HOC", "Hook"],
   "license": "MIT",
   "repository": {
   "type": "git",

@@ -2,7 +2,6 @@
 .DS_Store
 .gitignore
 .vscode
-tsconfig.json
 yarn-error.log
 node_modules/
 yarn.lock
