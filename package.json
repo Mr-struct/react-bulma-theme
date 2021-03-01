@@ -1,6 +1,7 @@
 {
   "version": "1.0.2",
   "license": "MIT",
+  "keywords": ["react", "bulma", "theme", "darck", "darck theme", "theming", "bulma theme", "reactJs", "reactjs"],
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
