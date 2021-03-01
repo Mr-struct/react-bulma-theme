@@ -1,6 +1,6 @@
 # React bulma theme
 
-react-bulma-theme is a component that wraps your app and provide you bulma theme easly 
+react-bulma-theme is a component that wraps your app and provide bulma themes easly 
 
 # Getting Started
 

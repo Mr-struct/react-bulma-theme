@@ -50,7 +50,7 @@ export const useSelectBulmaTheme = (defaultTheme: Theme) => {
 	return {theme, setThemeContext};
 };
 
-type Context = {
+export type Context = {
 	/**
 	 * Current theme default value is "default"
 	 */
