@@ -73,8 +73,12 @@ const App = () => {
   
   const themeContext = useContext(ThemeContext);
   return (
-    <ReactBulmaTheme theme="minty">
-      <ThemeSelector>
-    </ReactBulmaTheme>
+			<ThemeContext.Provider value={{theme: themeContext.theme,
+																		 setTheme: themeContext.setTheme}}
+			>
+				<BulmaThemeApp theme="minty">
+      		<ThemeSelector>
+    		</ReactBulmaTheme>
+		</ThemeContext.Provider>
   );
 ```
