@@ -72,15 +72,15 @@ import ThemeSelector from "./ThemeSelector"
 const App = () => {
   
   const themeContext = useContext(ThemeContext);
-  return (
-  	<ThemeContext.Provider 
+ return (
+		<ThemeContext.Provider 
 			value={{
 				theme: themeContext.theme,
 				setTheme: themeContext.setTheme
 			}}>
-		<BulmaThemeApp theme="minty">
-      			<ThemeSelector>
-    		</BulmaThemeApp>
-	</ThemeContext.Provider>
-  );
+			<BulmaThemeApp theme="minty">
+				<ThemeSelector />
+			</BulmaThemeApp>
+		</ThemeContext.Provider>
+	);
 ```
