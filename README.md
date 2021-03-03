@@ -1,6 +1,6 @@
 # React bulma theme
 
-react-bulma-theme is a component that wraps your app and provide bulma themes easly 
+react-bulma-theme is a component that wraps your app and provide bulma themes easily 
 
 # Getting Started
 
@@ -29,7 +29,7 @@ const App = () => (
 ```
 
 ### Using react context
-ThemeSelector.tsx : simple theme selector wite bulma clases and fortawesome
+ThemeSelector.tsx : simple theme selector wite bulma classes and fortawesome
 
 ```JSX
 import React, {useContext} from "react";
@@ -73,10 +73,10 @@ const App = () => {
   
   const themeContext = useContext(ThemeContext);
   return (
-			<ThemeContext.Provider value={{theme: themeContext.theme, setTheme: themeContext.setTheme}}>
-				<BulmaThemeApp theme="minty">
-      		<ThemeSelector>
-    		</ReactBulmaTheme>
-		</ThemeContext.Provider>
+  	<ThemeContext.Provider value={{theme: themeContext.theme, setTheme: themeContext.setTheme}}>
+		<BulmaThemeApp theme="minty">
+      			<ThemeSelector>
+    		</BulmaThemeApp>
+	</ThemeContext.Provider>
   );
 ```
