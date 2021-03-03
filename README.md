@@ -78,9 +78,9 @@ const App = () => {
 				theme: themeContext.theme,
 				setTheme: themeContext.setTheme
 			}}>
-			<BulmaThemeApp theme="minty">
-      	<ThemeSelector>
-    	</BulmaThemeApp>
+		<BulmaThemeApp theme="minty">
+      			<ThemeSelector>
+    		</BulmaThemeApp>
 	</ThemeContext.Provider>
   );
 ```
